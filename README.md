@@ -1,6 +1,12 @@
 # 4_Port_2.0_USB-Hub
 I made a 4 port 2.0 USB-Hub with an exar XR22404 Chip. I wanted to test the schematic for the USB-Chip to use it in a further project. Version 1 is up and running here. But the costs for one complete equipped PCB is about 60€. Now in V2.0 I want to decrease the costs to a quarter.
 
+You will find the
+  CAD-Files in the folder *KiCAD*
+  The manufakturing files in the folder *Gerber-files*
+  The PDF documents in the folder *PDF*
+  The licence files from CERN OHL v. 1.2 under *Licence*
+
 Licence:  
 
 Copyright Caroline Brix 2017.  
