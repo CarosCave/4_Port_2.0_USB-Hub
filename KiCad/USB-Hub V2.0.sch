@@ -160,31 +160,51 @@ F 3 "" H 2400 4400 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	1850 4300 2200 4300
+	1850 4300 2000 4300
+Wire Wire Line
+	2000 4300 2200 4300
 Wire Wire Line
 	2000 4500 2000 4300
 Connection ~ 2000 4300
 Wire Wire Line
 	2000 4800 2000 5050
 Wire Wire Line
-	2000 5050 2500 5050
+	2000 5050 2400 5050
+Wire Wire Line
+	2400 5050 2500 5050
 Wire Wire Line
 	2400 5050 2400 4600
 Connection ~ 2400 5050
 Wire Wire Line
-	2600 4300 3100 4300
+	2600 4300 2950 4300
 Wire Wire Line
-	2950 3950 2950 4500
+	2950 4300 3100 4300
 Wire Wire Line
-	2750 3950 3300 3950
+	2950 3950 2950 4300
+Wire Wire Line
+	2950 4300 2950 4500
+Wire Wire Line
+	2750 3950 2950 3950
+Wire Wire Line
+	2950 3950 3300 3950
 Connection ~ 2950 3950
 Wire Wire Line
-	2800 5050 4100 5050
+	2800 5050 2950 5050
 Wire Wire Line
-	2950 4800 2950 5150
+	2950 5050 3550 5050
+Wire Wire Line
+	3550 5050 4100 5050
+Wire Wire Line
+	2950 4800 2950 5050
+Wire Wire Line
+	2950 5050 2950 5150
 Connection ~ 2950 4300
 Wire Wire Line
-	3400 4300 4300 4300
+	3400 4300 3550 4300
+Wire Wire Line
+	3550 4300 4100 4300
+Wire Wire Line
+	4100 4300 4300 4300
 Wire Wire Line
 	3550 4300 3550 4500
 Wire Wire Line
@@ -317,7 +337,9 @@ Wire Wire Line
 Wire Wire Line
 	2300 5650 2200 5650
 Wire Wire Line
-	2200 5650 2200 5950
+	2200 5650 2200 5800
+Wire Wire Line
+	2200 5800 2200 5950
 Wire Wire Line
 	2200 5800 2100 5800
 Wire Wire Line
@@ -326,7 +348,9 @@ Connection ~ 2200 5800
 Wire Wire Line
 	2300 6250 2200 6250
 Wire Wire Line
-	2200 6250 2200 6550
+	2200 6250 2200 6400
+Wire Wire Line
+	2200 6400 2200 6550
 Wire Wire Line
 	2200 6400 2100 6400
 Wire Wire Line
@@ -343,25 +367,33 @@ Port 4
 Wire Wire Line
 	2600 5650 2950 5650
 Wire Wire Line
-	2950 5650 2950 5950
+	2950 5650 2950 5800
+Wire Wire Line
+	2950 5800 2950 5950
 Wire Wire Line
 	2950 5950 2600 5950
 Wire Wire Line
 	2600 6250 2950 6250
 Wire Wire Line
-	2950 6250 2950 6550
+	2950 6250 2950 6400
+Wire Wire Line
+	2950 6400 2950 6550
 Wire Wire Line
 	2950 6550 2600 6550
 Wire Wire Line
 	2950 5800 3100 5800
 Wire Wire Line
-	3100 5800 3100 6700
+	3100 5800 3100 6400
+Wire Wire Line
+	3100 6400 3100 6700
 Wire Wire Line
 	3100 6400 2950 6400
 Connection ~ 2950 6400
 Connection ~ 2950 5800
 Wire Wire Line
-	3100 6700 1700 6700
+	3100 6700 2350 6700
+Wire Wire Line
+	2350 6700 1700 6700
 Connection ~ 3100 6400
 Wire Wire Line
 	2350 6800 2350 6700
@@ -517,7 +549,9 @@ Wire Wire Line
 Text GLabel 6350 6250 0    60   Input ~ 0
 VCC33
 Wire Wire Line
-	6350 6250 7350 6250
+	6350 6250 6450 6250
+Wire Wire Line
+	6450 6250 7350 6250
 $Comp
 L Test_Point TP4
 U 1 1 59EE7170
@@ -530,7 +564,9 @@ F 3 "" H 6650 6050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6450 6050 6450 6400
+	6450 6050 6450 6250
+Wire Wire Line
+	6450 6250 6450 6400
 Connection ~ 6450 6250
 $Comp
 L R R8
@@ -544,7 +580,9 @@ F 3 "" H 6700 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6850 6400 7350 6400
+	6850 6400 6900 6400
+Wire Wire Line
+	6900 6400 7350 6400
 Wire Wire Line
 	6450 6400 6550 6400
 $Comp
@@ -591,7 +629,7 @@ Wire Wire Line
 	9150 6850 9050 6850
 $Bitmap
 Pos 15800 10300
-Scale 0,750000
+Scale 0,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 00 96 00 00 00 9D 08 06 00 00 00 56 C6 81 
 21 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 20 00 49 44 41 54 78 9C ED 9D 77 60 5B 
@@ -1059,7 +1097,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 5950 4300 5950
 Wire Wire Line
-	3600 5950 3900 5950
+	3600 5950 3750 5950
+Wire Wire Line
+	3750 5950 3900 5950
 Wire Wire Line
 	3750 5800 3750 5950
 Connection ~ 3750 5950
@@ -1086,14 +1126,18 @@ F 3 "" H 4150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6300 4150 6300
+	3600 6300 3850 6300
+Wire Wire Line
+	3850 6300 4150 6300
 Wire Wire Line
 	4150 6300 4150 6400
 Wire Wire Line
 	3850 6400 3850 6300
 Connection ~ 3850 6300
 Wire Wire Line
-	3850 6800 4150 6800
+	3850 6800 4000 6800
+Wire Wire Line
+	4000 6800 4150 6800
 Wire Wire Line
 	4000 6900 4000 6800
 Connection ~ 4000 6800
@@ -1201,13 +1245,13 @@ $EndComp
 $Comp
 L WE-TVS_Diode U1
 U 1 1 59EECDB6
-P 3250 2900
-F 0 "U1" V 2663 2950 60  0000 C CNN
-F 1 "WE-TVS_Diode" V 2769 2950 60  0000 C CNN
-F 2 "user_housing:SOT23-6L" H 3250 2900 60  0001 C CNN
-F 3 "" H 3250 2900 60  0001 C CNN
-	1    3250 2900
-	0    -1   1    0   
+P 3150 2900
+F 0 "U1" V 2563 2950 60  0000 C CNN
+F 1 "WE-TVS_Diode" V 2669 2950 60  0000 C CNN
+F 2 "user_housing:SOT23-6L" H 3150 2900 60  0001 C CNN
+F 3 "" H 3150 2900 60  0001 C CNN
+	1    3150 2900
+	0    1    1    0   
 $EndComp
 $Comp
 L C C10
@@ -1310,16 +1354,22 @@ Wire Wire Line
 Wire Wire Line
 	14000 2700 14000 2150
 Wire Wire Line
-	14000 2150 13500 2150
+	14000 2150 13600 2150
+Wire Wire Line
+	13600 2150 13500 2150
 Wire Wire Line
 	13600 2250 13600 2150
 Connection ~ 13600 2150
 Wire Wire Line
-	12700 2150 13200 2150
+	12700 2150 13100 2150
+Wire Wire Line
+	13100 2150 13200 2150
 Wire Wire Line
 	13100 2150 13100 2250
 Wire Wire Line
-	12700 1950 12700 2700
+	12700 1950 12700 2150
+Wire Wire Line
+	12700 2150 12700 2700
 Wire Wire Line
 	12700 2700 12400 2700
 Connection ~ 13100 2150
@@ -1477,16 +1527,22 @@ Wire Wire Line
 Wire Wire Line
 	14000 4450 14000 3900
 Wire Wire Line
-	14000 3900 13500 3900
+	14000 3900 13600 3900
+Wire Wire Line
+	13600 3900 13500 3900
 Wire Wire Line
 	13600 4000 13600 3900
 Connection ~ 13600 3900
 Wire Wire Line
-	12700 3900 13200 3900
+	12700 3900 13100 3900
+Wire Wire Line
+	13100 3900 13200 3900
 Wire Wire Line
 	13100 3900 13100 4000
 Wire Wire Line
-	12700 3700 12700 4450
+	12700 3700 12700 3900
+Wire Wire Line
+	12700 3900 12700 4450
 Wire Wire Line
 	12700 4450 12400 4450
 Connection ~ 13100 3900
@@ -1644,16 +1700,22 @@ Wire Wire Line
 Wire Wire Line
 	14000 6150 14000 5600
 Wire Wire Line
-	14000 5600 13500 5600
+	14000 5600 13600 5600
+Wire Wire Line
+	13600 5600 13500 5600
 Wire Wire Line
 	13600 5700 13600 5600
 Connection ~ 13600 5600
 Wire Wire Line
-	12700 5600 13200 5600
+	12700 5600 13100 5600
+Wire Wire Line
+	13100 5600 13200 5600
 Wire Wire Line
 	13100 5600 13100 5700
 Wire Wire Line
-	12700 5400 12700 6150
+	12700 5400 12700 5600
+Wire Wire Line
+	12700 5600 12700 6150
 Wire Wire Line
 	12700 6150 12400 6150
 Connection ~ 13100 5600
@@ -1811,16 +1873,22 @@ Wire Wire Line
 Wire Wire Line
 	14000 7850 14000 7300
 Wire Wire Line
-	14000 7300 13500 7300
+	14000 7300 13600 7300
+Wire Wire Line
+	13600 7300 13500 7300
 Wire Wire Line
 	13600 7400 13600 7300
 Connection ~ 13600 7300
 Wire Wire Line
-	12700 7300 13200 7300
+	12700 7300 13100 7300
+Wire Wire Line
+	13100 7300 13200 7300
 Wire Wire Line
 	13100 7300 13100 7400
 Wire Wire Line
-	12700 7100 12700 7850
+	12700 7100 12700 7300
+Wire Wire Line
+	12700 7300 12700 7850
 Wire Wire Line
 	12700 7850 12400 7850
 Connection ~ 13100 7300
@@ -2006,7 +2074,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3200 2750 3200
 Wire Wire Line
-	2650 2900 2750 2900
+	2550 2900 2750 2900
 Text GLabel 2100 2350 2    60   Input ~ 0
 VBUS_UP_P
 Wire Wire Line
@@ -2039,25 +2107,25 @@ Wire Wire Line
 $Comp
 L GND #PWR027
 U 1 1 59F02F3C
-P 3850 2900
-F 0 "#PWR027" H 3850 2650 50  0001 C CNN
-F 1 "GND" H 3855 2727 50  0000 C CNN
-F 2 "" H 3850 2900 50  0001 C CNN
-F 3 "" H 3850 2900 50  0001 C CNN
-	1    3850 2900
+P 2550 2900
+F 0 "#PWR027" H 2550 2650 50  0001 C CNN
+F 1 "GND" H 2555 2727 50  0000 C CNN
+F 2 "" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0001 C CNN
+	1    2550 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 2900 3850 2900
+	3650 2900 3700 2900
 Text GLabel 4750 2800 2    60   Input ~ 0
-USB_D_3+
-Text GLabel 4750 3000 2    60   Input ~ 0
 USB_D_3-
+Text GLabel 4750 3000 2    60   Input ~ 0
+USB_D_3+
 Wire Wire Line
 	4700 2800 4750 2800
 Wire Wire Line
 	4700 3000 4750 3000
-Text GLabel 2650 2900 0    60   Input ~ 0
+Text GLabel 3700 2900 2    60   Input ~ 0
 VCC_5V
 Wire Wire Line
 	1850 2750 1950 2750
@@ -2070,13 +2138,13 @@ Wire Notes Line
 Wire Notes Line
 	5400 3650 1200 3650
 Text Label 2250 3200 0    39   ~ 0
-USB_D_1-
-Text Label 2250 2600 0    39   ~ 0
 USB_D_1+
+Text Label 2250 2600 0    39   ~ 0
+USB_D_1-
 Text Label 3700 2600 0    39   ~ 0
-USB_D_2+
-Text Label 3700 3200 0    39   ~ 0
 USB_D_2-
+Text Label 3700 3200 0    39   ~ 0
+USB_D_2+
 Text Notes 12200 9900 0    59   ~ 0
 Copyright Caroline Brix 2017.\nThis documentation describes Open Hardware and is licensed under the\nCERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms of the\nCERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed\nWITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF\nMERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A\nPARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable\nconditions
 Wire Notes Line

@@ -1,4 +1,4 @@
-update=Montag, 23. Oktober 2017 'u43' 22:43:56
+update=Dienstag, 24. Oktober 2017 'u03' 00:03:19
 version=1
 last_client=kicad
 [general]
@@ -71,3 +71,13 @@ LibName37=/Users/caroline/Nextcloud/KiCad/user_library/user_FM
 LibName38=/Users/caroline/Nextcloud/KiCad/user_library/user_schalter
 LibName39=/Users/caroline/Nextcloud/KiCad/user_library/user_transformer
 LibName40=/Users/caroline/Nextcloud/KiCad/user_library/user_text
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
