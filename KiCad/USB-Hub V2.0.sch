@@ -1174,7 +1174,7 @@ F 1 "EMI_Common_Mode_Line_Filter" H 10700 2924 50  0001 C CNN
 F 2 "user_USB:WE-CNSW" V 10700 2740 50  0001 C CNN
 F 3 "" V 10700 2740 50  0000 C CNN
 	1    10700 2700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L USB_A_shielded J6
@@ -1196,7 +1196,7 @@ F 1 "WE-TVS_Diode" V 11419 2750 60  0000 C CNN
 F 2 "user_housing:SOT23-6L" H 11900 2700 60  0001 C CNN
 F 3 "" H 11900 2700 60  0001 C CNN
 	1    11900 2700
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L WE-TVS_Diode U1
@@ -1352,7 +1352,7 @@ F 1 "EMI_Common_Mode_Line_Filter" H 10700 4674 50  0001 C CNN
 F 2 "user_USB:WE-CNSW" V 10700 4490 50  0001 C CNN
 F 3 "" V 10700 4490 50  0000 C CNN
 	1    10700 4450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L USB_A_shielded J7
@@ -1374,7 +1374,7 @@ F 1 "WE-TVS_Diode" V 11419 4500 60  0000 C CNN
 F 2 "user_housing:SOT23-6L" H 11900 4450 60  0001 C CNN
 F 3 "" H 11900 4450 60  0001 C CNN
 	1    11900 4450
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L C C11
@@ -1519,7 +1519,7 @@ F 1 "EMI_Common_Mode_Line_Filter" H 10700 6374 50  0001 C CNN
 F 2 "user_USB:WE-CNSW" V 10700 6190 50  0001 C CNN
 F 3 "" V 10700 6190 50  0000 C CNN
 	1    10700 6150
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L USB_A_shielded J8
@@ -1541,7 +1541,7 @@ F 1 "WE-TVS_Diode" V 11419 6200 60  0000 C CNN
 F 2 "user_housing:SOT23-6L" H 11900 6150 60  0001 C CNN
 F 3 "" H 11900 6150 60  0001 C CNN
 	1    11900 6150
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L C C12
@@ -1686,7 +1686,7 @@ F 1 "EMI_Common_Mode_Line_Filter" H 10700 8074 50  0001 C CNN
 F 2 "user_USB:WE-CNSW" V 10700 7890 50  0001 C CNN
 F 3 "" V 10700 7890 50  0000 C CNN
 	1    10700 7850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L USB_A_shielded J9
@@ -1708,7 +1708,7 @@ F 1 "WE-TVS_Diode" V 11419 7900 60  0000 C CNN
 F 2 "user_housing:SOT23-6L" H 11900 7850 60  0001 C CNN
 F 3 "" H 11900 7850 60  0001 C CNN
 	1    11900 7850
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L C C13
@@ -2096,6 +2096,17 @@ F 1 "Name_1" H 10744 10622 59  0000 L CNN
 F 2 "user_text:Name_Lang" H 10600 10650 59  0001 C CNN
 F 3 "" H 10600 10650 59  0001 C CNN
 	1    10600 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L OSHW Txt2
+U 1 1 59F261AA
+P 10600 10900
+F 0 "Txt2" H 10625 10953 60  0000 L CNN
+F 1 "OSHW" H 10625 10847 60  0000 L CNN
+F 2 "Symbols:OSHW-Logo2_7.3x6mm_SilkScreen" H 10600 10900 60  0001 C CNN
+F 3 "" H 10600 10900 60  0001 C CNN
+	1    10600 10900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
