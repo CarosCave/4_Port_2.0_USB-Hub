@@ -1,0 +1,31 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-10-23 revision a562525)-master*%
+%TF.CreationDate,2017-11-11T10:42:01+01:00*%
+%TF.ProjectId,USB-Hub V2.0,5553422D4875622056322E302E6B6963,a*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B_Size_X,90.150*%
+%TJ.B_Size_Y,50.150*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Overall_Thickness,1.600*%
+%TJ.B_Legend_Present,Both*%
+%TJ.B_SolderMask_Present,Both*%
+G04 board design rules*
+%TJ.D_PadToPad_Out,0.200*%
+%TJ.D_PadToTrack_Out,0.200*%
+%TJ.D_TrackToTrack_Out,0.200*%
+%TJ.D_MinLineWidth_Out,0.125*%
+%TJ.D_TrackToRegion_Out,0.508*%
+%TJ.D_RegionToRegion_Out,0.508*%
+G04 Layer Structure*
+%TJ.L_"Copper,L1,Top",Positive,USB-Hub V2.0-F.Cu.gbr*%
+%TJ.L_"Copper,L2,Bot",Positive,USB-Hub V2.0-B.Cu.gbr*%
+%TJ.L_"Legend,Bot",Positive,USB-Hub V2.0-B.SilkS.gbr*%
+%TJ.L_"Legend,Top",Positive,USB-Hub V2.0-F.SilkS.gbr*%
+%TJ.L_"SolderMask,Bot",Negative,USB-Hub V2.0-B.Mask.gbr*%
+%TJ.L_"SolderMask,Top",Negative,USB-Hub V2.0-F.Mask.gbr*%
+%TJ.L_"Profile",Positive,USB-Hub V2.0-Edge.Cuts.gbr*%
+M02*
