@@ -1,4 +1,4 @@
-update=Mittwoch, 25. Oktober 2017 'u24' 21:24:26
+update=Sonntag, 05. November 2017 'u30' 19:30:09
 version=1
 last_client=kicad
 [general]
@@ -27,16 +27,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -81,3 +71,13 @@ LibName37=/Users/caroline/Nextcloud/KiCad_Library/user_library/Schematics/user_F
 LibName38=/Users/caroline/Nextcloud/KiCad_Library/user_library/Schematics/user_schalter
 LibName39=/Users/caroline/Nextcloud/KiCad_Library/user_library/Schematics/user_text
 LibName40=/Users/caroline/Nextcloud/KiCad_Library/user_library/Schematics/user_transformer
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
